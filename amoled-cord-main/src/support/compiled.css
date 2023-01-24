@@ -1204,3 +1204,17 @@ button[aria-label="Send a gift"] {
 div[class*="inviteBannerUpsell"] {
   display: none;
 }
+
+/* Server dropdown */
+div[class*=" colorPremium-"] {
+  display: none;
+}
+div[id="guild-header-popout"] > div > div[role="separator"] {
+  display: none;
+}
+div[id="guild-header-popout"]
+  > div
+  > div[role="separator"]
+  ~ div[role="separator"] {
+  display: block;
+}
