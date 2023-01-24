@@ -516,20 +516,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
   background-color: var(--scroller-track);
 }
 
-.titleBar-1it3bQ.typeWindows-2-g3UY::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  width: 16px;
-  height: 16px;
-  left: 5px;
-  top: 4px;
-}
-.titleBar-1it3bQ .wordmarkWindows-2dq6rw {
-  margin-left: 13px;
-  color: #6b6b6b;
-}
-
 #app-mount .callContainer-HtHELf .tile-2TcwiO {
   background-color: var(--background-secondary);
 }
