@@ -1199,3 +1199,8 @@ div[class^="premiumIconWrapper"] {
 button[aria-label="Send a gift"] {
   display: none;
 }
+
+/* Boost upsell when making an invite link */
+div[class*="inviteBannerUpsell"] {
+  display: none;
+}
