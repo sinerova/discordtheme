@@ -1107,3 +1107,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .panels-3wFtMD {
   background-color: var(--background-primary);
 }
+
+/*
+------------------------------------------------------
+Remove Nitro Tab
+By david 
+------------------------------------------------------
+*/
+#private-channels [href="/store"] {
+  display: none;
+}
