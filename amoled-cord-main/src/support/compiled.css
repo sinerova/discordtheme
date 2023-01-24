@@ -1120,6 +1120,25 @@ a[data-list-item-id$="___nitro"] {
   display: none;
 }
 
+/* Hide Nitro tabs in Settings */
+div[aria-label="User Settings"] > div[aria-label="Nitro"] {
+  display: none;
+}
+div[aria-label="User Settings"] > div[aria-label="Nitro"] + div {
+  display: none;
+}
+div[aria-label="User Settings"] > div[aria-label="Subscriptions"] {
+  display: none;
+}
+div[aria-label="User Settings"] > div[aria-label="Gift Inventory"] {
+  display: none;
+}
+div[aria-label="User Settings"]
+  > div[aria-label="Gift Inventory"]
+  + div[class^="item-"] {
+  display: none;
+}
+
 /* Hide profile customization upsells */
 div[id="account-style-your-profile"] {
   display: none;
