@@ -1218,3 +1218,8 @@ div[id="guild-header-popout"]
   ~ div[role="separator"] {
   display: block;
 }
+
+/* Hide Go Live quality upsells */
+button[class*=" selectorButtonPremiumRequired-"] {
+  display: none;
+}
