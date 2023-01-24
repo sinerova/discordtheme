@@ -1154,6 +1154,16 @@ div[aria-label="User Settings"]
   display: none;
 }
 
+/* Hide Nitro separator in settings */
+deiv[aria-label="User Settings"] > div[class^="separator"] {
+  display: none;
+}
+deiv[aria-label="User Settings"]
+  > div[class^="separator"]
+  ~ div[class^="separator"] {
+  display: block;
+}
+
 /* Hide profile customization upsells */
 div[id="account-style-your-profile"] {
   display: none;
