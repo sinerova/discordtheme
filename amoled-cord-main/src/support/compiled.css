@@ -1150,3 +1150,8 @@ div[class*="upsellOverlayContainer-"] {
 div[class^="premiumIconWrapper"] {
   display: none;
 }
+
+/* Chatbox buttons */
+button[aria-label="Send a gift"] {
+  display: none;
+}
