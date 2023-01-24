@@ -1139,6 +1139,21 @@ div[aria-label="User Settings"]
   display: none;
 }
 
+/* Hide Billing header and separator */
+div[aria-label="User Settings"]
+  > div[aria-label="Connections"]
+  + div[class^="item-"]
+  + div[class^="separator-"]
+  + div[class^="header-"] {
+  display: none;
+}
+div[aria-label="User Settings"]
+  > div[aria-label="Gift Inventory"]
+  + div[class^="item-"]
+  + div[class^="separator-"] {
+  display: none;
+}
+
 /* Hide profile customization upsells */
 div[id="account-style-your-profile"] {
   display: none;
