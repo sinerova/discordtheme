@@ -1107,3 +1107,46 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .panels-3wFtMD {
   background-color: var(--background-primary);
 }
+
+/* Custom additions */
+
+/* Hide Help button */
+div[aria-label="Help"] {
+  display: none;
+}
+
+/* Hide Nitro button in Home */
+a[data-list-item-id$="___nitro"] {
+  display: none;
+}
+
+/* Hide profile customization upsells */
+div[id="account-style-your-profile"] {
+  display: none;
+}
+button[class^="shinyButton"] {
+  display: none;
+}
+svg[class^="nitro"] {
+  display: none;
+}
+div[class^="customizationSection"]:nth-of-type(3) {
+  display: none;
+}
+div[class^="bannerNitroUpsell"] {
+  display: none;
+}
+div[class^="optionBox"]:nth-of-type(2) {
+  display: none;
+}
+div[class^="premiumFeatureBorder"] {
+  display: none;
+}
+div[class*="upsellOverlayContainer-"] {
+  display: none;
+}
+
+/* Hide ad in profile banners */
+div[class^="premiumIconWrapper"] {
+  display: none;
+}
